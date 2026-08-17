@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        console.log("start")
+        async function aa() {
+            let b=await fetch("https://jsonplaceholder.typicode.com/users")
+            let c=await b.json()
+            console.log(c)
+            
+        }
+        aa()
+        console.log("end")
+        
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

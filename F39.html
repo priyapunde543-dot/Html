@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .button{
+            background-color: blueviolet;
+            height: 100px;
+            width: 100px;
+            transition-property: all;
+            transition-duration: 2s;
+            transition-timing-function: ease-in-out;
+            
+            transform:rotatey(45deg);
+            transform: scaley(2);
+            transform: skewY(45deg);
+
+        }
+        .button:hover{
+            background-color: red;
+            height: 100px;
+            width: 100px;
+        } 
+        .button:active{
+            background-color: blue;
+            border: 2px solid pink;
+        }
+
+    </style>
+</head>
+<body>
+    <button class="button">click</button>
+</body>
+</html>
